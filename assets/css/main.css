@@ -77,7 +77,21 @@
 		-ms-appearance: none;
 		appearance: none;
 	}
+	
+	#header h1.m5-logo {
+		font-family: Roboto Slab,serif;
+		font-size: 45px;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		height: 45px;
+		line-height: 41px;
+		text-decoration: unset;
+		margin-top: 12px;
+	}
 
+	#header h1.m5-logo a {
+		text-decoration: unset;
+	}
 /* Basic */
 
 	@-ms-viewport {
@@ -2931,7 +2945,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #0288d1;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3000,7 +3014,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
+							color: #FFF;
 							margin-right: 0.5em;
 						}
 
