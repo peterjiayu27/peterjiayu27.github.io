@@ -2300,6 +2300,13 @@
 		margin: 0 0 2em 0;
 		padding: 3em;
 	}
+		.box.size-small{
+			margin: 0 10em 2em 10em;
+		}
+
+		.box.size-medium{
+			margin: 0 5em 2em 5em;
+		}
 
 		.box > :last-child {
 			margin-bottom: 0;
